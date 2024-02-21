@@ -1,6 +1,6 @@
 body {
   background-color: #f2f3f4;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #f2f3f4;
 }
 
@@ -65,25 +65,26 @@ main {
 }
 
 .weather-app-emoji {
-  font-size: 150px;
-  margin-top: 0;
+  font-size: 200px;
+  margin-top: -30px;
 }
 
 .weather-app-temperature {
-  font-size: 120px;
+  font-size: 110px;
+  margin-top: -50px;
 }
 
 .weather-app-unit {
   font-size: 40px;
   position: absolute;
-  margin-top: -18px;
+  margin-top: 15px;
 }
 
-.weather-app-details {
+.weather-app-info {
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
-  margin-top: 60px;
+  margin-top: -4px;
 }
 
 .weather-app-details strong {
