@@ -1,12 +1,52 @@
 body {
   background-color: #f2f3f4;
   font-family: "Raleway", sans-serif;
+  color: #f2f3f4;
 }
+
+a {
+  color: aqua;
+}
+
 .weather-app {
-  background: #2937b4;
+  background: linear-gradient(
+    181deg,
+    rgb(2, 0, 97) 15%,
+    rgb(97, 149, 219) 158.5%
+  );
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+header {
+  border-bottom: 1px solid #f2f3f4;
+  padding: 0 0 30px 0;
+}
+.search-form-input {
+  background-color: #f2f3f4;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background: #f2f3f4;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  color: #2937b4;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+footer {
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: white;
 }
