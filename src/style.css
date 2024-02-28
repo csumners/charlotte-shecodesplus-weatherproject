@@ -92,21 +92,14 @@ main {
   font-weight: 500;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-}
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 24px;
   opacity: 0.5;
 }
 
@@ -115,7 +108,7 @@ main {
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 footer {
